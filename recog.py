@@ -32,7 +32,7 @@ def main():
                 print("Detected: " + spoken)
                 if "録画開始" in spoken:
                     cprint("Sent recode start signal.", color='cyan')
-                elif "録画終了" in spoken:
+                elif "終わりましたよ" in spoken:
                     cprint("Sent recode stop signal.", color='magenta')
 
                 data = ""
